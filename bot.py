@@ -16,7 +16,7 @@ async def on_message(message):
 			entered_team = "SEA"
 		elif entered_team in americas_list:
 			entered_team = "Americas"
-		elif entered_team == "europe":
+		elif entered_team == "europe" or "eu":
 			entered_team = "Europe"
 		elif entered_team == "asia":
 			entered_team = "Asia"
